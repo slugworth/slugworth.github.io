@@ -18,9 +18,7 @@
                 Class slides for creating a 5-pointed star in SVG
                 https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform to translate and scale the star into place
         -->
-        <svg height="500" width="950">
-            <rect width="950" height="500" x="0" y="0" class="outline" />
-
+        <svg height="525" width="950">
             <rect width="380" height="269.25" x="0" y="0" class="union" />
             
             <rect width="570" height="38.45" x="380" y="0" class="stripe" />
@@ -89,13 +87,17 @@
             <polygon points="100,10 40,198 190,78 10,78 160,198" transform="translate(176.5 204.5) scale(0.125)" class="star" />
             <polygon points="100,10 40,198 190,78 10,78 160,198" transform="translate(241.5 204.5) scale(0.125)" class="star" />
             <polygon points="100,10 40,198 190,78 10,78 160,198" transform="translate(306.5 204.5) scale(0.125)" class="star" />
+
+            <line x1="0" x2="950" y1="0" y2="0" />
+            <line x1="950" x2="950" y1="0" y2="500" />
+            <line x1="0" x2="0" y1="0" y2="500" />
+            <line x1="0" x2="950" y1="500" y2="500" />
+
+            <text x="475" y="500" dy="24">USA! USA!</text>
         </svg>
     </div>
     <div>
-        <svg height="24" width="800">
-            <line x1="0" y1="20" x2="800" y2="20" />
-        </svg>
-        <br>
+        <br><br>
         <a href="index.html">Return to Index</a>
         <br><br><br>
     </div>
