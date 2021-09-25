@@ -1,0 +1,28 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+
+.outline {
+    stroke: black;
+    stroke-width: 2;
+    fill: white;
+}
+
+.union {
+    fill: #002147;
+}
+
+.stripe {
+    fill: #bb133e;
+}
+
+.star {
+    fill: white;
+    stroke: white;
+}
+
+a {
+    color: maroon;
+    font-size: 1.5em;
+    font-weight: bold;
+}

@@ -1,6 +1,6 @@
-* {
+body {
     background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 
 h2 {
@@ -22,6 +22,6 @@ img {
 
 a {
     color: maroon;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
