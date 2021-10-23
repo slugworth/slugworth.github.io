@@ -91,7 +91,7 @@ function submit() {
 
     if (doSubmit) {
         validation.innerHTML += '<p>Successful registration. Redirecting...</p>';
-        window.location.href = "https://slugworth.github.io/";
+        window.location.href = "../index.html";
         return false;
     }
 }
