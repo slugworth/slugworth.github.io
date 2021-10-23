@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+.textred {
+    color: red;
+    font-weight: bold;
+}
+
+.textorange {
+    color: orange;
+    font-weight: bold;
+}
+
+.form-label {
+    text-align: right;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./form.css">
+    <script src="form.js"></script>
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td class="form-label"><label for="form-username">Username:</label></td>
+                <td><input type="text" id="form-username" name="form-username"></td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-email">Email Address:</label></td>
+                <td><input type="text" id="form-email" name="form-email"></td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-phone">Phone number:</label></td>
+                <td><input type="text" id="form-phone" name="form-phone"></td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-password">Enter Password:</label></td>
+                <td><input type="password" id="form-password" name="form-password"></td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-confirm">Confirm Password:</label></td>
+                <td><input type="password" id="form-confirm" name="form-confirm"></td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="gender-female" name="form-gender" value="Female">Female&nbsp;
+                    <input type="radio" id="gender-male" name="form-gender" value="Male">Male&nbsp;
+                    <input type="radio" id="gender-other" name="form-gender" value="Other">Other
+                </td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-birthday">Birthday:</label></td>
+                <td>
+                    <select id="birthday-month"></select>
+                    <select id="birthday-date"></select>
+                    <select id="birthday-year"></select>
+                </td>
+            </tr>
+            <tr>
+                <td class="form-label"><label for="form-music">Favorite Music Genre:</label></td>
+                <td>
+                    <input type="checkbox" id="music0" name="music0">Pop&nbsp;
+                    <input type="checkbox" id="music1" name="music1">Hiphop&nbsp;
+                    <input type="checkbox" id="music2" name="music2">Jazz&nbsp;
+                    <input type="checkbox" id="music3" name="music3">Rock&nbsp;
+                    <input type="checkbox" id="music4" name="music4">Classical&nbsp;
+                    <input type="checkbox" id="music5" name="music5">Country&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                   <button type="button" id="button-submit">Submit</button>
+                   <button type="reset" id="button-clear">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div id="validation">
+
+    </div>
+</body>
+</html>

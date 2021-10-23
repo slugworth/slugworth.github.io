@@ -154,4 +154,4 @@ function getStats() {
     document.write(row);
 }
 
-runCalc();
+window.onload = runCalc;
